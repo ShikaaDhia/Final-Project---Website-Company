@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+}
+
+.judul {
+   text-align: center;
+   margin-top: 50px;
+   font-size: 100px;
+   font-family: 'Shadows Into Light', sans-serif;
+}
+
+.menu  {
+    display: flex;
+    margin-top: 116px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .kartu-menu {
+    background: none;
+    border: 2px solid #000;
+    padding: 1.5rem 2rem 51px;
+    border-radius: 20px 20px;
+    transition: 1s ease;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu .kartu-menu img {
+    margin-bottom: 15px;
+    padding-left: auto;
+    padding-right: auto;
+    width: 171px;
+    height: 169px;
+}
+
+.menu .kartu-menu h3 {
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.menu .kartu-menu p {
+    color: #5c6574;
+    margin-top: 21px;
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.pisah-kartu {
+    margin: auto auto 20px auto;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1.5s ease ;
+}
+  
+.reveal {
+    transform: translateY(0px);
+    opacity: 1;
+}
